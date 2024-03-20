@@ -1,5 +1,5 @@
 import './Petite.css'
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Navbar from "./pages/Navbar";
 import Footer from "./pages/Footer";
 import Home from "./pages/Home";
@@ -22,7 +22,7 @@ function App() {
        </Routes>
     </main>
     <Footer />
-    q</Router>
+    </Router>
   );
 }
 
